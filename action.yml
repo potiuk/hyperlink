@@ -12,6 +12,8 @@ runs:
   using: composite
   steps:
     - name: Download Hyperlink
+      env:
+        GH_TOKEN: ${{ github.token }}
       run: |
         set -x
         cd ${{ github.action_path }}
