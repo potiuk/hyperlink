@@ -22,7 +22,7 @@ A command-line tool to find broken links in your static site.
   not indexed by Google.
 
 * Does not parse CSS files, as broken links in CSS have not been a practical
-  concern for us. We are concerned about broken link in the page content, not
+  concern for us. We are concerned about broken links in the page content, not
   the chrome around it.
 
 * Only supports UTF-8 encoded HTML files.
